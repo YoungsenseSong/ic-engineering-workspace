@@ -1,0 +1,54 @@
+# Editor and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+out/
+debug/
+release/
+*.o
+*.obj
+*.elf
+*.map
+*.hex
+*.bin
+*.lst
+
+# FPGA generated files
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.Xil/
+*.jou
+*.log
+*.str
+*.qws
+*.qpf.bak
+*.qsf.bak
+
+# Simulation output
+sim/work/
+sim/transcript
+*.wlf
+*.vcd
+*.fst
+*.fsdb
+
+# Local secrets and machine-specific files
+.env
+.env.*
+*.key
+*.pem
+local/
+
+# Large generated data; keep only selected results in Git
+results/raw/
+
+# Python cache
+__pycache__/
+*.pyc
